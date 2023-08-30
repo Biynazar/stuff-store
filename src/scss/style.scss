@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800;900&family=Playfair+Display:wght@700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style-type: none;
+  text-decoration: none;
+  font-family: 'Montserrat', sans-serif;
+
+}
+
+$color1: #212123;
+$color2: #8B57C6;
+$color3: #F6F6F7;
+$color4: #576067;
+$color5: #191919;
+$color6: #6C3EB8;
+$color7: #B8B8B8;
+$color8: #616E74;
+$color9: #FFF;
+
+
+body {
+  background: $color1;
+}
+
+.container {
+  max-width: 1274px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 20px;
+
+}
+
+.btn{
+  border-radius: 6px;
+  background: $color6;
+  border: none;
+  padding: 9px 20px;
+  color: $color9;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+@import "header";
+@import "begin";
+@import "trending";
+@import "worth";
+@import "newSale";
+@import "footer";

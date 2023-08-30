@@ -1,0 +1,33 @@
+.footer{
+
+  &__nav{
+    border-radius: 6px;
+    background: $color5;
+    padding: 25px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  &__develop{
+    color: $color4;
+    font-size: 12px;
+    font-weight: 500;
+   span{
+     color: $color6;
+   }
+  }
+  &__social{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    column-gap: 18px;
+  }
+  &__link {
+    &:hover{
+      svg path{
+        fill: $color6;
+      }
+    }
+
+  }
+}
